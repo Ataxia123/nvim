@@ -7,8 +7,7 @@ end
 vim.opt.rtp:prepend(vim.env.LAZY or lazypath)
 
 require("lazy").setup({
-map = {
-map <space>e :lua vim.diagnostic.open_float(0, {scope="line"})<CR>}                                                      
+
   spec = {
     -- add LazyVim and import its plugins
     { "LazyVim/LazyVim", import = "lazyvim.plugins" },
