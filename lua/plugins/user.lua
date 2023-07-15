@@ -164,7 +164,10 @@ return {
   },
   -- add gruvbox
   { "ellisonleao/gruvbox.nvim" },
-
+  {
+    "m4xshen/hardtime.nvim",
+    opts = {},
+  },
   -- Configure LazyVim to load gruvbox
   {
     "LazyVim/LazyVim",
